@@ -33,4 +33,4 @@ clean :
 spotless : clean
 	rm -f ${JARFILE}
 
-.PHONY:all test clean spotless submit
+.PHONY:all test clean spotless
