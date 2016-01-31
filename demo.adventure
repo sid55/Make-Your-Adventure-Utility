@@ -1,0 +1,262 @@
+r thoughtO
+d This is your first decision.
+d Welcome to your adventure human being. In this game
+d put yourself into this situation and
+d decide what you would do. This is a mentally
+d challenging game that will test your skills
+d in a scenario that could happen to you. Some of these
+d choices that you're presented with might be highly
+d improbable but are still plausible.
+d Are you ready?
+o yes
+t thought1
+o no
+t thought21
+
+r thought1
+d This is your first thought.
+d All of a sudden you wake up from a nap and find 
+d yourself in a dungeon shackled to the wall by your feet. 
+d You do not know how you 
+d got here or why this is happening to you. 
+d Right now, you have a list of options you can 
+d choose from in order to decide your fate.
+d You see a set of keys that could unshackle your chains
+d just laying on the floor a couple feet from you. 
+d What will you do?
+o try to reach for keys.
+t thought2
+o wait to see if someone comes.
+t thought3
+o shout for help.
+t thought4
+
+r thought2
+d This is your next thought. 
+d You reach for the keys and are so close at getting them.
+d They are inches way from your fingers. You can either
+d break your leg to get a longer reach or shout for help.
+o shout for help.
+t thought4
+o break your leg.
+t thought6
+
+r thought3
+d This is your next thought.
+d You wait for a little bit but after 
+d what feels like an hour, no one appears to come
+d down those stairs to the dungeon.
+o try to reach for keys.
+t thought2
+o shout for help.
+t thought4
+o shout extremely loud for help.
+t thought5
+
+r thought4
+d This is your next thought.
+d You shout for help but no one comes. You wait for 
+d 20 minutes and decide again what to do. 
+o shout again.
+t thought4
+o shout louder.
+t thought5
+o try to reach for keys.
+t thought2
+
+r thought5
+d This is your next thought.
+d You yell the loudest you can. And then you
+d hear a voice. The next thing you know someone 
+d comes stomping down from upstairs and before you
+d realize it a guy dressed in all black 
+d comes up to you and points a gun at you. He is
+d yelling at you in some foreign language and seems
+d very frantic.
+o try speaking to him
+t thought7
+o try to punch him
+t thought8
+
+r thought6
+d This is your next thought.
+d You attempt breaking your leg slowly but as you try, you
+d can't help but yell in pain. Suprisingly, no one comes
+d down the stairs. You look at your leg and sigh with confusion.
+o smash the leg down with your elbow
+t thought9
+o try crushing the leg slowly again.
+t thought6
+o give up and shout really loud for help
+t thought5
+
+r thought7
+d This is your next thought.
+d You attempt speaking to him but he's getting 
+d more and more angry. You could tell his finger
+d is just about to pull the trigger.
+o try to punch him
+t thought8
+o take the bullet and die
+t thought8
+
+r thought8
+d This is your final thought
+d Before you can even think, do, or say something,
+d you hear the sound of a bullet.
+d YOU ARE DEAD. PLEASE COME BACK WHEN YOU'RE MORE WISE.
+d To quit the game please enter: q
+d To restart the game please enter: r
+
+r thought9
+d This is your next thought.
+d You crush the leg with your elbow, and yell in absurd
+d pain. The pain is overwhelming but you somehow try
+d to calm yourself and get back to your senses. You realize
+d that you have to get those keys before someone comes
+d down from hearing you scream.
+o scramble forward to get those keys quickly
+t thought10
+o wait for a bit to calm your nerves and think rationally
+t thought11
+
+r thought10
+d This is your next thought.
+d You rush towards those keys to uncuff yourself. You're
+d fully aware, that with the amount of noise you have made
+d someone is bound to come. All of a sudden you hear footsteps
+d coming down from the stairs.
+o stand your ground and confront what's coming
+t thought12
+o try to hide
+t thought13
+
+r thought11
+d This is your next thought.
+d You wait a couple minutes to calm your nerves and soon
+d come to realize that you have to uncuff yourself before
+d someone comes down.
+o get those keys quickly
+t thought10
+
+r thought12
+d This is your next thought.
+d Someone is slowly coming down those stairs and before you
+d realize it a guy dressed in all black 
+d comes up to you and points a gun at you. He is
+d yelling at you in some foreign language and seems
+d very frantic.
+o try to speak to him
+t thought15
+o try to hit him using the handcuffs as a weapon
+t thought14
+
+r thought13
+d This is your final thought.
+d You see some cardboard boxes off to the side and 
+d run there as quietly as you can. But, without realizing
+d it, your handcuffs are making noises. You turn your 
+d head back and see a person dressed in all black pointing
+d a gun at you. The next thing you know, you hear a gunshot.
+d YOU ARE DEAD. PLEASE COME BACK WHEN YOU ARE MORE WISE.
+d To quit the game please enter: q
+d To restart the game please enter: r
+
+r thought14
+d This is your next thought.
+d You hit the man with a quick jab to the face using 
+d the handcuffs. The man falls to the ground dropping
+d the gun. 
+o pick up the gun before he does
+t thought16
+o run out of there as quickly as possible
+t thought17
+
+r thought15
+d This is your next thought.
+d You attempt speaking to him but he's getting 
+d more and more angry. He notices that you have removed
+d the handcuffs and he takes them from you very quickly.
+d He yells at you i some foreign language and is extremely angry.
+d You could tell his finger is just about to pull the trigger.
+o try to punch him and knock the gun out of his hand
+t thought8
+o take the bullet and die
+t thought8
+
+r thought16
+d This is your next thought.
+d You race to pick up the gun and make it in time. 
+d That's when all of a sudden you notice something.
+d All this time, there were three more cages around
+d you and you see three people chained in each of the 
+d cages, wearing tattered clothing. None of them have
+d spoken a word but they are all staring at what's about
+d to unfold. You notice that the man you are pointing the
+d gun at has a set of keys around his necklace. 
+o run upstairs, without wasting time, and try to escape
+t thought17
+o take the set of keys and try to unlock the cages
+t thought18
+
+r thought17
+d This is your final thought.
+d You race up the stairs and open the door at the top.
+d Right when you come out, you regret it... In front of you,
+d stands a man pointing a gun to you. You think to yourself,
+d he must have heard the noise from downstairs and 
+d suspected something. Before you have any time to react, you 
+d could see this man pulling the trigger. 
+d YOU ARE DEAD. COME BACK WHEN YOU ARE MORE WISE.
+d To quit the game please enter: q
+d To restart the game please enter: r
+
+r thought18
+d This is your next thought
+d You take the set of keys right off the man who is
+d still groaning from pain. You quickly open all the
+d cages. These three people come out of the cages and 
+d are all starting to smile. They hug eachother but
+d still don't speak. Perhaps they speak in different 
+d languages you think to yourself. The three of them start going
+d upstairs but one of them comes to you and tugs at your
+d sleeve to follow her. You follow them up the stairs and 
+d come to the top door.
+o have one of them open the door
+t thought19
+o you open the door
+t thought20
+
+r thought19
+d This is your final thought
+d The little girl that has tugged at your arm goes to
+d open the door. She opens it, and there stands a man
+d pointing a gun at the little girl. Before you have the time
+d to lift up your gun, the man shoots the little girl and you take
+d a shot at him right after. Both the girl and the man die, and 
+d the police come minutes later, due to neighbor complaints
+d of gun shots. While the three of you are tearing up after
+d losing a little kid, the police take you out of the house. 
+d You have lost this game. A little girl has died due to your decisions.
+d To quit the game please enter: q
+d To restart the game please enter: r
+
+r thought20
+d This is your final thought
+d You open the door putting these three kids behind you
+d There stands a man and before you know it, the man shoots 
+d you with the gun. You fall to the ground, but see other
+d people bursting through the front door and push the man down. 
+d They seem to be this man's neighbors... You close your eyes
+d as the last thing you see are the little girls smiling at you.
+d You have won this game. You have risked your life and saved the kids.
+d To quit the game please enter: q
+d To restart the game please enter: r
+
+r thought21
+d This is your next decision
+d You have decided that you are not ready for this game yet.
+d To quit the game please enter: q
+d To start the game please enter: r
+
+

@@ -1,0 +1,53 @@
+README
+
+
+Makefile
+-It has the commands necessary to remove and recompile the classes.
+
+cyoa.java
+-This java class functions as a choose-your-own-adventure utility.
+ The user can type in any file that contains any adventure as the
+ argument for this java class and this java class will act as a line
+ by line reader of the file and allows the user to play the game.
+
+LinkedList.java
+-This java class funtions as a doubly linked list with one extra set 
+ of pointers. This doubly linked list is a custom variation of an actual
+ doubly linked list and thus has more nodes acting as pointers. Additionally,
+ each node in this class holds four separate hashtables, each with
+ their own functionalities.
+
+demo.adventure
+-This is the adventure text file I have created to act as an argument
+ for cyoa.java. The user can change the file that they want to enter 
+ as an argument but that file should have text following the same format.
+
+design.pdf
+-This is a design document for this project. It contains information
+ regarding which data structures I have used and why I have used them.
+ It explains the changes I have made towards the design of this 
+ project as the project progessed.
+
+README
+-A list of files and each of their descriptions.
+
+list of files:
+-Makefile
+-cyoa.java
+-LinkedList.java
+-demo.adventure
+-design.pdf
+-README
+
+Note about what this project is about:
+-In this project I have created a program that 
+ that makes use of a doubly linked list and hashtables.
+ This program allows the compilation of any file the
+ user enters if it contains the proper information
+ and then runs the game that the user has chosen.
+
+Notes about compiling and running:
+-In order to compile this program use the makefile by typing 
+ in "make all" into the command line. This test allows the
+ compilation of the program. To allow the program to compile
+ and then run type in "make test".
